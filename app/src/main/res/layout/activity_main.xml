@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.alespero.expandablecardview.ExpandableCardView
+        android:id="@+id/profile1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:title="Layout One"
+        app:icon="@drawable/ic_person"
+        app:inner_view="@layout/view_one"
+        app:expandOnClick="true" />
+
+    <com.alespero.expandablecardview.ExpandableCardView
+        android:id="@+id/profile2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:title="Layout One"
+        app:icon="@drawable/ic_person"
+        app:inner_view="@layout/view_two"
+        app:expandOnClick="true" />
+
+</LinearLayout>
