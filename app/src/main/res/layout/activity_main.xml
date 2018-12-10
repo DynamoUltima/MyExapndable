@@ -14,7 +14,8 @@
         app:title="Layout One"
         app:icon="@drawable/ic_person"
         app:inner_view="@layout/view_one"
-        app:expandOnClick="true" />
+        app:expandOnClick="true"
+        android:layout_margin="15dp"/>
 
     <com.alespero.expandablecardview.ExpandableCardView
         android:id="@+id/profile2"
@@ -23,6 +24,7 @@
         app:title="Layout One"
         app:icon="@drawable/ic_person"
         app:inner_view="@layout/view_two"
-        app:expandOnClick="true" />
+        app:expandOnClick="true"
+        android:layout_margin="15dp"/>
 
 </LinearLayout>
